@@ -38,7 +38,7 @@ jobs:
     runs-on: windows-latest
     needs: build
     environment:
-      name: 'Production'
+      name: 'production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -52,6 +52,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'MobileDiagnostic'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64F7FA0E6E7B466187866E8C0832175C }}
-          package: .
+          slot-name: 'production'
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_ce8cd49d96b740a88b668f63a69caa8c }}
+          package: .git
+
