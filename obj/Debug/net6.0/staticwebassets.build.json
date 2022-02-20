@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yx9nE6XeQBcN/hmQ9UbYSuokdX4CHu+5S7u40SXR4N0=",
+  "Hash": "xmb2SxSbFgSffACwNFQdURR0LQxWN8zScuotlLjXlCk=",
   "Source": "MobileDiag",
   "BasePath": "_content/MobileDiag",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Src\\MobileDiag\\wwwroot\\Img\\title.png",
+      "SourceId": "MobileDiag",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Src\\MobileDiag\\wwwroot\\",
+      "BasePath": "_content/MobileDiag",
+      "RelativePath": "Img/title.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\title.png"
     },
     {
       "Identity": "C:\\Src\\MobileDiag\\wwwroot\\js\\site.js",
