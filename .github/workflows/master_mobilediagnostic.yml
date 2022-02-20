@@ -54,4 +54,4 @@ jobs:
           app-name: 'MobileDiagnostic'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE56FAA2C06948F8AEED58BDC93BC439 }}
-          package: .
+          package: 
