@@ -17,3 +17,29 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.green{
+  color:#26DA6F;
+}
+h3 .phone{
+  font-size: calc(3rem + .9vw);
+}
+h3 a{
+  color:rgba(255,255,255,.55);
+  text-decoration: none;
+}
+.price-list li{
+  width: 45%;
+}
+.price-list .info{
+  color: white;
+  font-style: italic;
+  font-size: .8em;
+}
+.price-list li, .price{
+  color:#26DA6F;
+  font-size: 1.3em;
+}
+.price{
+  float:right;
+}
