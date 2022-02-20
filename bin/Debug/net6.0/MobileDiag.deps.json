@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MobileDiag/1.0.0": {
+        "runtime": {
+          "MobileDiag.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MobileDiag/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
