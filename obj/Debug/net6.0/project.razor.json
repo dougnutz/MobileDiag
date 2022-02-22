@@ -16328,6 +16328,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Src\\MobileDiag\\Pages\\MeetTheTeam.cshtml",
+      "TargetPath": "Pages\\MeetTheTeam.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Src\\MobileDiag\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
