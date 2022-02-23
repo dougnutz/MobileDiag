@@ -37,7 +37,7 @@ public partial class IndexModel : PageModel
         public string Description{get;set;}= "&nbsp;";
 
         public price(){}
-        public price(string name,string price, string desc="&nbsp;")
+        public price(string name,string price, string desc="")
         {
             Name = name;
             Price = price;
