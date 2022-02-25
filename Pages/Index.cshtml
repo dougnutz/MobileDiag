@@ -11,26 +11,25 @@
 </div>
 
 <div class="triangle"></div>
-
-<div class="price-list container ">
-    <div class="row">
-    @foreach (var price in IndexModel.Prices)
-    {
+<div class="price-list row">
     <div class="col-md-6">
-        <div class="row">
-            <div class="name col-md-8">
-                @price.Name
+        @for(int i = 0, count = IndexModel.Prices.Count; i < count ; i++)
+        {
+            <div class="row">
+                <div class="name col-md-9">
+                    @IndexModel.Prices[i].Name
+                </div>
+                <div class="price col-md-3">
+                    @IndexModel.Prices[i].Price
+                </div>
             </div>
-            <div class="price col-md-4">
-                @price.Price
+            <div class="info row">
+            <div class="col-md-10">@IndexModel.Prices[i].Description</div>
             </div>
-        </div>
-        <div class="info row">
-            <div class="col-md-10">@price.Description</div>
-        </div>
-    </div>
-    }
+            @if (i==count/2)
+            {
+                 @Html.Raw("</div><div class=\"col-md-6\">")
+            }
+        }
     </div>
 </div>
-
-
