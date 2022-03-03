@@ -3,17 +3,18 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MobileDiag.Pages;
 
-public class PrivacyModel : PageModel
+public partial class baseModel : PageModel
 {
-    private readonly ILogger<PrivacyModel> _logger;
+    private readonly ILogger<IndexModel> _logger;
 
-    public PrivacyModel(ILogger<PrivacyModel> logger)
+
+    public baseModel(ILogger<IndexModel> logger)
     {
         _logger = logger;
     }
 
     public void OnGet()
     {
+
     }
 }
-

@@ -5,9 +5,9 @@ namespace MobileDiag.Pages;
 
 public class MeetTheTeam : PageModel
 {
-    private readonly ILogger<PrivacyModel> _logger;
+    private readonly ILogger<baseModel> _logger;
 
-    public MeetTheTeam(ILogger<PrivacyModel> logger)
+    public MeetTheTeam(ILogger<baseModel> logger)
     {
         _logger = logger;
     }

@@ -5,9 +5,9 @@ namespace MobileDiag.Pages;
 
 public class HealthModel : PageModel
 {
-    private readonly ILogger<PrivacyModel> _logger;
+    private readonly ILogger<HealthModel> _logger;
 
-    public HealthModel(ILogger<PrivacyModel> logger)
+    public HealthModel(ILogger<HealthModel> logger)
     {
         _logger = logger;
     }
